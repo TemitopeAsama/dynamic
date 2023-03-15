@@ -30,17 +30,12 @@
     {
       "name": "Changelog",
       "icon": "megaphone",
-      "url": "https://docs.dynamic.xyz/changelog"
+      "url": "changelog"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://www.dynamic.xyz/blog"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://www.dynamic.xyz/join-slack"
     },
     {
       "name": "Contact Us",
@@ -313,6 +308,10 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Changelog",
+      "pages": ["changelog/overview"]
     }
   ],
   "footerSocials": {

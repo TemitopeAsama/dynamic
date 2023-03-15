@@ -4,15 +4,19 @@ title: "Authenticate"
 
 ### Setup
 
-By default, we will authenticate users which means users will need to sign on every connection. This means, that you don't need to set any prop to automatically authenticate users.
+By default, we will authenticate users which means users will need to sign on
+every connection. This means, that you don't need to set any prop to
+automatically authenticate users.
 
-That being said, you can explicitly control the settings using the `initialAuthenticationMode` prop and setting the value to `connect-and-sign`.
+That being said, you can explicitly control the settings using the
+`initialAuthenticationMode` prop and setting the value to `connect-and-sign`.
 
 #### initialAuthenticationMode (optional)
 
-Connect onlyConnect and Sign
+<CodeGroup>
 
-`import { useDynamicContext } from "@dynamic-labs/sdk-react";
+```js Connect only
+import { useDynamicContext } from "@dynamic-labs/sdk-react";
 
 <DynamicContextProvider
   settings={{
@@ -22,9 +26,10 @@ Connect onlyConnect and Sign
 >
   {...}
 </DynamicContextProvider>
-`
+```
 
-`import { useDynamicContext } from "@dynamic-labs/sdk-react";
+```js Connect and Sign
+import { useDynamicContext } from "@dynamic-labs/sdk-react";
 
 <DynamicContextProvider
   settings={{
@@ -34,19 +39,23 @@ Connect onlyConnect and Sign
 >
   {...}
 </DynamicContextProvider>
-`
+```
+
+</CodeGroup>
 
 ### Usage
 
 #### useAuthenticateConnectedUser
 
-If you elect to avoid authentication initially by using `connect-only`, but at some point you want to authenticate your connected users (ie, prove ownership of the wallet), then you can call `authenticateUser` to trigger a sign request. 
+If you elect to avoid authentication initially by using `connect-only`, but at
+some point you want to authenticate your connected users (ie, prove ownership of
+the wallet), then you can call `authenticateUser` to trigger a sign request.
 
-You can check the boolean `isAuthenticating` to check on the status of a user that is authenticating which will be either `true` or `false`.
+You can check the boolean `isAuthenticating` to check on the status of a user
+that is authenticating which will be either `true` or `false`.
 
-TypeScript
-
-`import { useAuthenticateConnectedUser, useDynamicContext } from "@dynamic-labs/sdk-react";
+```ts TypeScript
+import { useAuthenticateConnectedUser, useDynamicContext } from "@dynamic-labs/sdk-react";
 
 const Element = () => {
   const { user } = useDynamicContext();
@@ -62,10 +71,12 @@ const Element = () => {
 
   return <div>User is authenticated!</div>;
 };
-`
+```
 
 ### Example
 
-This video below shows our [demo site](demo.dynamic.xyz). Here we start with a connected user who has not yet authenticated. We call the authenticateUser method and signature request appears. Once the user signs, then Dynamic verifies the signature and returns a JWT.
-
- Your browser does not support HTML video.
+[This video](https://dynamic-labs.github.io/readme-embeds/videos/connect_authenticate.mov)
+shows our [demo site](demo.dynamic.xyz). Here we start with a connected user who
+has not yet authenticated. We call the authenticateUser method and signature
+request appears. Once the user signs, then Dynamic verifies the signature and
+returns a JWT.

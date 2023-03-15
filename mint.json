@@ -54,26 +54,15 @@
         "tokens-api-keys",
         {
           "group": "Logging In",
-          "pages": [
-            "connect",
-            "connect",
-            "connect-and-sign",
-            "custom-siwe-message"
-          ]
+          "pages": ["connect", "connect-and-sign", "custom-siwe-message"]
         },
         {
           "group": "Chains & Networks",
-          "pages": [
-            "chains-networks",
-            "chains-networks",
-            "network-switching",
-            "rpc-urls-1"
-          ]
+          "pages": ["chains-networks", "network-switching", "rpc-urls-1"]
         },
         {
           "group": "Wallets",
           "pages": [
-            "sort-and-filter-wallets",
             "sort-and-filter-wallets",
             "multi-wallet",
             "invisible-wallets"
@@ -82,7 +71,6 @@
         {
           "group": "User Onboarding",
           "pages": [
-            "sign-up-options",
             "sign-up-options",
             "information-capture",
             "email-verification",
@@ -95,26 +83,21 @@
         },
         {
           "group": "Design",
-          "pages": ["design", "design", "custom-css", "update-lightdark-theme"]
+          "pages": ["design", "custom-css", "update-lightdark-theme"]
         },
         {
           "group": "User Management",
-          "pages": ["authenticated-users", "authenticated-users", "visitors"]
+          "pages": ["authenticated-users", "visitors"]
         },
         "sandbox-vs-live",
         "analytics",
         {
           "group": "Settings",
-          "pages": ["general", "general", "security", "privacy-1"]
+          "pages": ["general", "security", "privacy-1"]
         },
         {
           "group": "Admin",
-          "pages": [
-            "invite-members",
-            "invite-members",
-            "projects-1",
-            "organizations-1"
-          ]
+          "pages": ["invite-members", "projects-1", "organizations-1"]
         },
         "how-to-validate-users-on-the-backend"
       ]
@@ -127,7 +110,6 @@
           "group": "Components",
           "pages": [
             "dynamiccontextprovider-settings",
-            "dynamiccontextprovider-settings",
             "dynamicconnectbutton",
             "dynamicwidget",
             "dynamicwidgetcontent",
@@ -138,19 +120,17 @@
           "group": "hooks",
           "pages": [
             "usedynamiccontext",
-            "usedynamiccontext",
             "usewalletitemactions",
             "useauthenticatedconnecteduser"
           ]
         },
         {
           "group": "Utilities",
-          "pages": ["getauthtoken", "getauthtoken", "getnetwork"]
+          "pages": ["getauthtoken", "getnetwork"]
         },
         {
           "group": "Callbacks",
           "pages": [
-            "onauthflowclose",
             "onauthflowclose",
             "onauthflowopen",
             "onauthsuccess",
@@ -163,7 +143,6 @@
           "group": "Examples",
           "pages": [
             "get-wallet-balance",
-            "get-wallet-balance",
             "get-balance-for-all-wallets",
             "sign-a-message",
             "get-the-users-profile"
@@ -172,7 +151,6 @@
         {
           "group": "References",
           "pages": [
-            "walletconnector",
             "walletconnector",
             "wallet",
             "userprofile",
@@ -193,7 +171,6 @@
           "group": "React Issues",
           "pages": [
             "pop-up-isnt-visible-on-some-devices",
-            "pop-up-isnt-visible-on-some-devices",
             "vitejs-polyfills-necessary-for-dynamic-sdk",
             "nextjs-with-react-17-with-dynamic-react-sdk-0140",
             "failed-to-parse-source-map-warnings",
@@ -202,10 +179,7 @@
         },
         {
           "group": "Wallet Issues",
-          "pages": [
-            "wallet-is-redirecting-to-the-app-store",
-            "wallet-is-redirecting-to-the-app-store"
-          ]
+          "pages": ["wallet-is-redirecting-to-the-app-store"]
         },
         {
           "group": "Solved Issues",
@@ -228,7 +202,6 @@
           "group": "Settings",
           "pages": [
             "reference/getenvironmentproviders",
-            "reference/getenvironmentproviders",
             "reference/createprovider",
             "reference/getprovider",
             "reference/updateprovider",
@@ -241,7 +214,6 @@
           "group": "Environments",
           "pages": [
             "reference/getenvironmentbyid-1",
-            "reference/getenvironmentbyid-1",
             "reference/deleteenvironmentbyid-1",
             "reference/updateprojectsettings-1",
             "reference/getvisitorscountbyenvironmentid-1",
@@ -253,7 +225,6 @@
           "group": "Wallets",
           "pages": [
             "reference/getwalletsbyuserid",
-            "reference/getwalletsbyuserid",
             "reference/getwalletbyid",
             "reference/deletewalletbyid"
           ]
@@ -262,22 +233,17 @@
           "group": "Users",
           "pages": [
             "reference/getuser-1",
-            "reference/getuser-1",
             "reference/deleteuser",
             "reference/getenvironmentusers-1"
           ]
         },
         {
           "group": "Visits",
-          "pages": [
-            "reference/getenvironmentvisitors",
-            "reference/getenvironmentvisitors"
-          ]
+          "pages": ["reference/getenvironmentvisitors"]
         },
         {
           "group": "Origins",
           "pages": [
-            "reference/getorigins-1",
             "reference/getorigins-1",
             "reference/addorigin-1",
             "reference/deleteoriginbyid-1"
@@ -287,7 +253,6 @@
           "group": "Tokens",
           "pages": [
             "reference/gettokens-1",
-            "reference/gettokens-1",
             "reference/posttoken-1",
             "reference/deletetokenbyid-1"
           ]
@@ -295,7 +260,6 @@
         {
           "group": "Allowlists",
           "pages": [
-            "reference/getallowlistsbyenvironmentid-1",
             "reference/getallowlistsbyenvironmentid-1",
             "reference/createallowlistbyenvironmentid-1",
             "reference/getallowlistsbyid-1",

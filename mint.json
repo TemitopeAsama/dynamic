@@ -6,26 +6,46 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#",
-    "light": "#",
-    "dark": "#",
-    "anchors": { "from": "#", "to": "#" }
+    "primary": "#4779FF",
+    "light": "#A0BFFF",
+    "dark": "#0C3CBE",
+    "anchors": { "from": "#6393F8", "to": "#3D66E5" }
   },
   "topbarCtaButton": {
-    "name": "",
-    "url": ""
+    "name": "Start Free",
+    "url": "https://app.dynamic.xyz/"
   },
   "topbarLinks": [
     {
-      "name": "",
-      "url": ""
+      "name": "Live Demo",
+      "url": "https://demo.dynamic.xyz/"
     }
   ],
   "anchors": [
     {
-      "name": "",
-      "icon": "",
-      "url": ""
+      "name": "API Reference",
+      "icon": "square-terminal",
+      "url": "/reference"
+    },
+    {
+      "name": "Changelog",
+      "icon": "megaphone",
+      "url": "https://docs.dynamic.xyz/changelog"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://www.dynamic.xyz/blog"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "https://www.dynamic.xyz/join-slack"
+    },
+    {
+      "name": "Contact Us",
+      "icon": "envelope",
+      "url": "mailto:hello@dynamic.xyz"
     }
   ],
   "navigation": [
@@ -35,7 +55,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "",
-    "linkedin": ""
+    "twitter": "https://twitter.com/dynamic_xyz",
+    "linkedin": "https://www.linkedin.com/company/dynamiclabs/",
+    "slack": "https://www.dynamic.xyz/join-slack"
   }
 }

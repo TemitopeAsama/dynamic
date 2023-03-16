@@ -256,9 +256,9 @@
         {
           "group": "Users",
           "pages": [
-            "api-reference/getuser-1",
-            "api-reference/deleteuser",
-            "api-reference/getenvironmentusers-1"
+            "api-reference/users/getuser-1",
+            "api-reference/users/deleteuser",
+            "api-reference/users/getenvironmentusers-1"
           ]
         },
         {

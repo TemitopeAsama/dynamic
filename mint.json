@@ -248,9 +248,9 @@
         {
           "group": "Wallets",
           "pages": [
-            "api-reference/getwalletsbyuserid",
-            "api-reference/getwalletbyid",
-            "api-reference/deletewalletbyid"
+            "api-reference/wallets/getwalletsbyuserid",
+            "api-reference/wallets/getwalletbyid",
+            "api-reference/wallets/deletewalletbyid"
           ]
         },
         {

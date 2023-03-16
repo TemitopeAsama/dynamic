@@ -237,12 +237,12 @@
         {
           "group": "Environments",
           "pages": [
-            "api-reference/getenvironmentbyid-1",
-            "api-reference/deleteenvironmentbyid-1",
-            "api-reference/updateprojectsettings-1",
-            "api-reference/getvisitorscountbyenvironmentid-1",
-            "api-reference/getkeysforenvironment-1",
-            "api-reference/getenvironmentsbyprojectid-1"
+            "api-reference/environments/getenvironmentbyid-1",
+            "api-reference/environments/deleteenvironmentbyid-1",
+            "api-reference/environments/updateprojectsettings-1",
+            "api-reference/environments/getvisitorscountbyenvironmentid-1",
+            "api-reference/environments/getkeysforenvironment-1",
+            "api-reference/environments/getenvironmentsbyprojectid-1"
           ]
         },
         {

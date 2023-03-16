@@ -25,7 +25,7 @@
     {
       "name": "API Reference",
       "icon": "square-terminal",
-      "url": "/reference"
+      "url": "api-reference"
     },
     {
       "name": "Changelog",
@@ -46,123 +46,123 @@
   "navigation": [
     {
       "group": "Introduction",
-      "pages": ["getting-started", "getting-started-with-dynamic", "support-1"]
+      "pages": ["introduction/getting-started", "introduction/getting-started-with-dynamic", "introduction/support-1"]
     },
     {
       "group": "Features",
       "pages": [
-        "tokens-api-keys",
+        "features/tokens-api-keys",
         {
           "group": "Logging In",
-          "pages": ["connect", "connect-and-sign", "custom-siwe-message"]
+          "pages": ["features/connect", "features/connect-and-sign", "features/custom-siwe-message"]
         },
         {
           "group": "Chains & Networks",
-          "pages": ["chains-networks", "network-switching", "rpc-urls-1"]
+          "pages": ["features/chains-networks", "features/network-switching", "features/rpc-urls-1"]
         },
         {
           "group": "Wallets",
           "pages": [
-            "sort-and-filter-wallets",
-            "multi-wallet",
-            "invisible-wallets"
+            "features/sort-and-filter-wallets",
+            "features/multi-wallet",
+            "features/invisible-wallets"
           ]
         },
         {
           "group": "User Onboarding",
           "pages": [
-            "sign-up-options",
-            "information-capture",
-            "email-verification",
-            "tos-privacy-policy",
-            "access-lists-1",
-            "wallet-recommendations-in-new-to-web3",
-            "chainalysis",
-            "captcha"
+            "features/sign-up-options",
+            "features/information-capture",
+            "features/email-verification",
+            "features/tos-privacy-policy",
+            "features/access-lists-1",
+            "features/wallet-recommendations-in-new-to-web3",
+            "features/chainalysis",
+            "features/captcha"
           ]
         },
         {
           "group": "Design",
-          "pages": ["design", "custom-css", "update-lightdark-theme"]
+          "pages": ["features/design", "features/custom-css", "features/update-lightdark-theme"]
         },
         {
           "group": "User Management",
-          "pages": ["authenticated-users", "visitors"]
+          "pages": ["features/authenticated-users", "features/visitors"]
         },
-        "sandbox-vs-live",
-        "analytics",
+        "features/sandbox-vs-live",
+        "features/analytics",
         {
           "group": "Settings",
-          "pages": ["general", "security", "privacy-1"]
+          "pages": ["features/general", "features/security", "features/privacy-1"]
         },
         {
           "group": "Admin",
-          "pages": ["invite-members", "projects-1", "organizations-1"]
+          "pages": ["features/invite-members", "features/projects-1", "features/organizations-1"]
         },
-        "how-to-validate-users-on-the-backend"
+        "features/how-to-validate-users-on-the-backend"
       ]
     },
     {
-      "group": "sdk-react",
+      "group": "SDK-React",
       "pages": [
-        "methods-objects",
+        "sdk-reacts/methods-objects",
         {
           "group": "Components",
           "pages": [
-            "dynamiccontextprovider-settings",
-            "dynamicconnectbutton",
-            "dynamicwidget",
-            "dynamicwidgetcontent",
-            "dynamicwidgetnav"
+            "sdk-reacts/dynamiccontextprovider-settings",
+            "sdk-reacts/dynamicconnectbutton",
+            "sdk-reacts/dynamicwidget",
+            "sdk-reacts/dynamicwidgetcontent",
+            "sdk-reacts/dynamicwidgetnav"
           ]
         },
         {
           "group": "hooks",
           "pages": [
-            "usedynamiccontext",
-            "usewalletitemactions",
-            "useauthenticatedconnecteduser"
+            "sdk-reacts/usedynamiccontext",
+            "sdk-reacts/usewalletitemactions",
+            "sdk-reacts/useauthenticatedconnecteduser"
           ]
         },
         {
           "group": "Utilities",
-          "pages": ["getauthtoken", "getnetwork"]
+          "pages": ["sdk-reacts/getauthtoken", "sdk-reacts/getnetwork"]
         },
         {
           "group": "Callbacks",
           "pages": [
-            "onauthflowclose",
-            "onauthflowopen",
-            "onauthsuccess",
-            "onlinksuccess",
-            "onlogout",
-            "onunlinksuccess"
+            "sdk-reacts/onauthflowclose",
+            "sdk-reacts/onauthflowopen",
+            "sdk-reacts/onauthsuccess",
+            "sdk-reacts/onlinksuccess",
+            "sdk-reacts/onlogout",
+            "sdk-reacts/onunlinksuccess"
           ]
         },
         {
           "group": "Examples",
           "pages": [
-            "get-wallet-balance",
-            "get-balance-for-all-wallets",
-            "sign-a-message",
-            "get-the-users-profile"
+            "sdk-reacts/get-wallet-balance",
+            "sdk-reacts/get-balance-for-all-wallets",
+            "sdk-reacts/sign-a-message",
+            "sdk-reacts/get-the-users-profile"
           ]
         },
         {
           "group": "References",
           "pages": [
-            "walletconnector",
-            "wallet",
-            "userprofile",
-            "user-payload",
-            "jwtblockchainaccount"
+            "sdk-reacts/walletconnector",
+            "sdk-reacts/wallet",
+            "sdk-reacts/userprofile",
+            "sdk-reacts/user-payload",
+            "sdk-reacts/jwtblockchainaccount"
           ]
         }
       ]
     },
     {
       "group": "Guides",
-      "pages": ["wagmi-v2", "walletconnect-v2"]
+      "pages": ["guides/wagmi-v2", "guides/walletconnect-v2"]
     },
     {
       "group": "Troubleshooting",
@@ -170,30 +170,30 @@
         {
           "group": "React Issues",
           "pages": [
-            "pop-up-isnt-visible-on-some-devices",
-            "vitejs-polyfills-necessary-for-dynamic-sdk",
-            "nextjs-with-react-17-with-dynamic-react-sdk-0140",
-            "failed-to-parse-source-map-warnings",
-            "jest-error-syntaxerror-unexpected-token-export"
+            "troubleshooting/pop-up-isnt-visible-on-some-devices",
+            "troubleshooting/vitejs-polyfills-necessary-for-dynamic-sdk",
+            "troubleshooting/nextjs-with-react-17-with-dynamic-react-sdk-0140",
+            "troubleshooting/failed-to-parse-source-map-warnings",
+            "troubleshooting/jest-error-syntaxerror-unexpected-token-export"
           ]
         },
         {
           "group": "Wallet Issues",
-          "pages": ["wallet-is-redirecting-to-the-app-store"]
+          "pages": ["troubleshooting/wallet-is-redirecting-to-the-app-store"]
         },
         {
           "group": "Solved Issues",
           "pages": [
-            "solved-issues",
-            "module-not-found-error",
-            "react-static-flag-error"
+            "troubleshooting/solved-issues",
+            "troubleshooting/module-not-found-error",
+            "troubleshooting/react-static-flag-error"
           ]
         }
       ]
     },
     {
-      "group": "REST API",
-      "pages": ["reference/overview"]
+      "group": "Rest API",
+      "pages": ["api-reference/overview"]
     },
     {
       "group": "Dashboard API",
@@ -201,74 +201,74 @@
         {
           "group": "Settings",
           "pages": [
-            "reference/getenvironmentproviders",
-            "reference/createprovider",
-            "reference/getprovider",
-            "reference/updateprovider",
-            "reference/deleteprovider",
-            "reference/enableprovider",
-            "reference/disableprovider"
+            "api-reference/getenvironmentproviders",
+            "api-reference/createprovider",
+            "api-reference/getprovider",
+            "api-reference/updateprovider",
+            "api-reference/deleteprovider",
+            "api-reference/enableprovider",
+            "api-reference/disableprovider"
           ]
         },
         {
           "group": "Environments",
           "pages": [
-            "reference/getenvironmentbyid-1",
-            "reference/deleteenvironmentbyid-1",
-            "reference/updateprojectsettings-1",
-            "reference/getvisitorscountbyenvironmentid-1",
-            "reference/getkeysforenvironment-1",
-            "reference/getenvironmentsbyprojectid-1"
+            "api-reference/getenvironmentbyid-1",
+            "api-reference/deleteenvironmentbyid-1",
+            "api-reference/updateprojectsettings-1",
+            "api-reference/getvisitorscountbyenvironmentid-1",
+            "api-reference/getkeysforenvironment-1",
+            "api-reference/getenvironmentsbyprojectid-1"
           ]
         },
         {
           "group": "Wallets",
           "pages": [
-            "reference/getwalletsbyuserid",
-            "reference/getwalletbyid",
-            "reference/deletewalletbyid"
+            "api-reference/getwalletsbyuserid",
+            "api-reference/getwalletbyid",
+            "api-reference/deletewalletbyid"
           ]
         },
         {
           "group": "Users",
           "pages": [
-            "reference/getuser-1",
-            "reference/deleteuser",
-            "reference/getenvironmentusers-1"
+            "api-reference/getuser-1",
+            "api-reference/deleteuser",
+            "api-reference/getenvironmentusers-1"
           ]
         },
         {
           "group": "Visits",
-          "pages": ["reference/getenvironmentvisitors"]
+          "pages": ["api-reference/getenvironmentvisitors"]
         },
         {
           "group": "Origins",
           "pages": [
-            "reference/getorigins-1",
-            "reference/addorigin-1",
-            "reference/deleteoriginbyid-1"
+            "api-reference/getorigins-1",
+            "api-reference/addorigin-1",
+            "api-reference/deleteoriginbyid-1"
           ]
         },
         {
           "group": "Tokens",
           "pages": [
-            "reference/gettokens-1",
-            "reference/posttoken-1",
-            "reference/deletetokenbyid-1"
+            "api-reference/gettokens-1",
+            "api-reference/posttoken-1",
+            "api-reference/deletetokenbyid-1"
           ]
         },
         {
           "group": "Allowlists",
           "pages": [
-            "reference/getallowlistsbyenvironmentid-1",
-            "reference/createallowlistbyenvironmentid-1",
-            "reference/getallowlistsbyid-1",
-            "reference/deleteallowlistbyid-1",
-            "reference/enableallowlistbyid-1",
-            "reference/disableallowlistbyid",
-            "reference/getentriesbyallowlistid-1",
-            "reference/postentrybyallowlistid-1",
-            "reference/deleteallowlistentrybyid-1"
+            "api-reference/getallowlistsbyenvironmentid-1",
+            "api-reference/createallowlistbyenvironmentid-1",
+            "api-reference/getallowlistsbyid-1",
+            "api-reference/deleteallowlistbyid-1",
+            "api-reference/enableallowlistbyid-1",
+            "api-reference/disableallowlistbyid",
+            "api-reference/getentriesbyallowlistid-1",
+            "api-reference/postentrybyallowlistid-1",
+            "api-reference/deleteallowlistentrybyid-1"
           ]
         }
       ]
@@ -282,5 +282,6 @@
     "twitter": "https://twitter.com/dynamic_xyz",
     "linkedin": "https://www.linkedin.com/company/dynamiclabs/",
     "slack": "https://www.dynamic.xyz/join-slack"
-  }
+  },
+  "backgroundImage": "/images/background-image.png"
 }

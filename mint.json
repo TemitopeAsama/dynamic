@@ -268,9 +268,9 @@
         {
           "group": "Origins",
           "pages": [
-            "api-reference/getorigins-1",
-            "api-reference/addorigin-1",
-            "api-reference/deleteoriginbyid-1"
+            "api-reference/origins/getorigins-1",
+            "api-reference/origins/addorigin-1",
+            "api-reference/origins/deleteoriginbyid-1"
           ]
         },
         {

@@ -263,7 +263,7 @@
         },
         {
           "group": "Visits",
-          "pages": ["api-reference/getenvironmentvisitors"]
+          "pages": ["api-reference/visits/getenvironmentvisitors"]
         },
         {
           "group": "Origins",

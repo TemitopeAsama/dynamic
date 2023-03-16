@@ -276,9 +276,9 @@
         {
           "group": "Tokens",
           "pages": [
-            "api-reference/gettokens-1",
-            "api-reference/posttoken-1",
-            "api-reference/deletetokenbyid-1"
+            "api-reference/tokens/gettokens-1",
+            "api-reference/tokens/posttoken-1",
+            "api-reference/tokens/deletetokenbyid-1"
           ]
         },
         {

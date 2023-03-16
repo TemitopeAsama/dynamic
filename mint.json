@@ -284,15 +284,15 @@
         {
           "group": "Allowlists",
           "pages": [
-            "api-reference/getallowlistsbyenvironmentid-1",
-            "api-reference/createallowlistbyenvironmentid-1",
-            "api-reference/getallowlistsbyid-1",
-            "api-reference/deleteallowlistbyid-1",
-            "api-reference/enableallowlistbyid-1",
-            "api-reference/disableallowlistbyid",
-            "api-reference/getentriesbyallowlistid-1",
-            "api-reference/postentrybyallowlistid-1",
-            "api-reference/deleteallowlistentrybyid-1"
+            "api-reference/allowlists/getallowlistsbyenvironmentid-1",
+            "api-reference/allowlists/createallowlistbyenvironmentid-1",
+            "api-reference/allowlists/getallowlistsbyid-1",
+            "api-reference/allowlists/deleteallowlistbyid-1",
+            "api-reference/allowlists/enableallowlistbyid-1",
+            "api-reference/allowlists/disableallowlistbyid",
+            "api-reference/allowlists/getentriesbyallowlistid-1",
+            "api-reference/allowlists/postentrybyallowlistid-1",
+            "api-reference/allowlists/deleteallowlistentrybyid-1"
           ]
         }
       ]

@@ -46,7 +46,11 @@
   "navigation": [
     {
       "group": "Introduction",
-      "pages": ["introduction/getting-started", "introduction/getting-started-with-dynamic", "introduction/support-1"]
+      "pages": [
+        "introduction/getting-started",
+        "introduction/getting-started-with-dynamic",
+        "introduction/support-1"
+      ]
     },
     {
       "group": "Features",
@@ -54,11 +58,19 @@
         "features/tokens-api-keys",
         {
           "group": "Logging In",
-          "pages": ["features/connect", "features/connect-and-sign", "features/custom-siwe-message"]
+          "pages": [
+            "features/connect",
+            "features/connect-and-sign",
+            "features/custom-siwe-message"
+          ]
         },
         {
           "group": "Chains & Networks",
-          "pages": ["features/chains-networks", "features/network-switching", "features/rpc-urls-1"]
+          "pages": [
+            "features/chains-networks",
+            "features/network-switching",
+            "features/rpc-urls-1"
+          ]
         },
         {
           "group": "Wallets",
@@ -83,7 +95,11 @@
         },
         {
           "group": "Design",
-          "pages": ["features/design", "features/custom-css", "features/update-lightdark-theme"]
+          "pages": [
+            "features/design",
+            "features/custom-css",
+            "features/update-lightdark-theme"
+          ]
         },
         {
           "group": "User Management",
@@ -93,11 +109,19 @@
         "features/analytics",
         {
           "group": "Settings",
-          "pages": ["features/general", "features/security", "features/privacy-1"]
+          "pages": [
+            "features/general",
+            "features/security",
+            "features/privacy-1"
+          ]
         },
         {
           "group": "Admin",
-          "pages": ["features/invite-members", "features/projects-1", "features/organizations-1"]
+          "pages": [
+            "features/invite-members",
+            "features/projects-1",
+            "features/organizations-1"
+          ]
         },
         "features/how-to-validate-users-on-the-backend"
       ]
@@ -201,13 +225,13 @@
         {
           "group": "Settings",
           "pages": [
-            "api-reference/getenvironmentproviders",
-            "api-reference/createprovider",
-            "api-reference/getprovider",
-            "api-reference/updateprovider",
-            "api-reference/deleteprovider",
-            "api-reference/enableprovider",
-            "api-reference/disableprovider"
+            "api-reference/settings/getenvironmentproviders",
+            "api-reference/settings/createprovider",
+            "api-reference/settings/getprovider",
+            "api-reference/settings/updateprovider",
+            "api-reference/settings/deleteprovider",
+            "api-reference/settings/enableprovider",
+            "api-reference/settings/disableprovider"
           ]
         },
         {

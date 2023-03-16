@@ -46,14 +46,20 @@ api: "GET https://app.dynamic.xyz/api/v0/settings/providers/{providerId}"
 </Tab>
 
 <Tab title="🔴 400">
+Bad Request
+
   <ResponseField name="error" type="string" />
 </Tab>
 
 <Tab title="🔴 401">
+Unauthorized
+
   <ResponseField name="error" type="string" />
 </Tab>
 
 <Tab title="🔴 403">
+Forbidden
+
   <ResponseField name="error" type="string" />
 </Tab>
 
@@ -70,6 +76,8 @@ api: "GET https://app.dynamic.xyz/api/v0/settings/providers/{providerId}"
 </Tab>
 
 <Tab title="🔴 500">
+Internal Server Error
+
   <ResponseField name="error" type="string" />
 </Tab>
 
